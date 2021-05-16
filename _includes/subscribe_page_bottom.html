@@ -1,0 +1,22 @@
+<div class="container-cf">
+    <form onsubmit="sendEmail(event)" style="background-color: rgba(126,211,33,.5);">
+        <div id="alert-field" class="alert hidden">
+            <p>Uh oh! Something went wrong!</p>
+        </div>
+        <div class="newsletter-container">
+            <input type="text" class="form-control" id="name-field" name="name-field" placeholder="Your name" style="background: #fafafa;" required>
+            <input type="email" class="form-control" id="email-field" name="email-field" style="background: #fafafa;" placeholder="Email address" required>
+			{% if page.title %}
+	        <input type="hidden" value="{{ site.url }}{{ site.baseurl }}/{{ page.title }}" name="page-field"/>
+			{% else %}
+			<input type="hidden" value="{{ site.url }}{{ site.baseurl }}/{{ page.layout }}" name="page-field"/>
+			{% endif %}
+			
+            <input id="subsc" type="submit" style="float: right; background: #3b9cba;"  value="Subscribe"/>
+        </div>
+        
+    </form> 
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script  src="{{ site.url }}{{ site.baseurl }}/custom-js/subscribeForm.js"></script>

@@ -1,0 +1,20 @@
+{% if include.postLink %}
+{% assign post_link = include.postLink %}
+{% else %}
+{% assign post_link = "https://twitter.com/TDataScience/status/1379062017793912837" %}
+{% endif %}
+
+<div class="centerAdMobile" width="500" style="margin-bottom: 1.5em; min-height: 380px; max-height: 480px;">
+    <div class="twitter-tweet">
+        <a href="{{ post_link }}?ref_src=twsrc%5Etfw"></a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+</div>
+
+<div class="centerAdDesktop" style="margin-bottom: 1.5em; min-height: 450px; max-height: 550px;">
+    <div class="twitter-tweet">
+        <a href="{{ post_link }}?ref_src=twsrc%5Etfw"></a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>

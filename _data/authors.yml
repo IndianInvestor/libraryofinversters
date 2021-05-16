@@ -1,0 +1,19 @@
+# /_data/authors.yml
+
+Utpal Kumar:
+  name        : "Utpal Kumar"
+  bio         : "Data Science, Computational Geophysics, Web Computing"
+  avatar      : "https://raw.githubusercontent.com/earthinversion/earthinversion-images/main/images/utpalphoto.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:utpalkumar50@gmail.com"
+
+
+Balaji Kumar Seela:
+  name        : "Balaji Kumar Seela"
+  bio         : "Atmospheric Physics"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:seelabalaji@gmail.com"

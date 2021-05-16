@@ -1,0 +1,26 @@
+
+{% if include.postTitle %}
+  {% assign post_title = include.postTitle %}
+{% else %}
+  {% assign post_title = "" %}
+{% endif %}
+
+{% if include.postLink %}
+  {% assign post_link = include.postLink %}
+{% else %}
+  {% assign post_link = "" %}
+{% endif %}
+
+{% if include.postExcerpt %}
+  {% assign post_excerpt = include.postExcerpt %}
+{% else %}
+  {% assign post_excerpt = "" %}
+{% endif %}
+
+
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="background-color: #F5F5F5; padding-left: 0.2em; margin: 1em; border:1px solid #3b9cba;">
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="{{ post_link }}" rel="permalink">{{ post_title | markdownify | strip_html | truncate: 160 }}</a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ post_excerpt | markdownify | strip_html | truncate: 160 }}</p>
+</article>

@@ -1,0 +1,70 @@
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+<div class="sidebar sticky">
+
+  {% if page.sidebar %}
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0"
+    nonce="Uzwp1p7Z"></script>
+  {% for s in page.sidebar %}
+  {% if s.image %}
+  <div class="sidebar-image">
+    <a href="https://github.com/earthinversion/Rotating-globe-with-topography"><img width="311" height="311" src={% if
+        s.image contains "://" %} "{{ s.image }}" {% else %} "{{ s.image | relative_url }}" {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}"></a>
+  </div>
+  {% endif %}
+
+  {% if s.title %}
+  <h2 align="center">{{ s.title }}</h2>
+  {% endif %}
+  {% if s.showBtn %}
+  <p align="center" style="margin-bottom:0;">
+    <a href="/research/" class="btn btn--success btn--small" style="font-size:0.6em;"><i class="fa fa-globe"
+        aria-hidden="true"></i> Research</a>
+    <a href="/data-analysis/" class="btn btn--success btn--small" style="font-size:0.6em;"><i class="fa fa-chart-line"
+        aria-hidden="true"></i> Data Analysis</a>
+  </p>
+  <p align="center" style="margin-top:0;">
+    <a href="/web-computing/" class="btn btn--success btn--small" style="font-size:0.6em;"><i class="fa fa-cloud"
+        aria-hidden="true"></i> Web Computing</a>
+    <a href="https://github.com/earthinversion/" class="btn btn--success btn--small" style="font-size:0.6em;"><i
+        class="fab fa-github" aria-hidden="true"></i> Github Page</a>
+  </p>
+
+  <div class="fb-like" data-href="https://www.facebook.com/earthinversionwebsite" data-width=""
+    data-layout="button_count" data-action="like" data-size="small" data-share="true" data-lazy="true"
+    style="text-align: center; display: block !important; min-height: 30px;"></div>
+
+  {% endif %}
+
+  {% if s.text %}
+  <blockquote style="font-size: small;">
+    "{{ s.text }}"
+  </blockquote>
+
+  {% endif %}
+
+  {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+  {% if s.reader_count %}
+  <p class="page_readers"><a href="http://feeds.feedburner.com/EarthInversion"><img
+        src="http://feeds.feedburner.com/~fc/EarthInversion?bg=FFCC33&amp;fg=444444&amp;anim=0" height="26" width="88"
+        style="border:0" alt="" /></a></p>
+  {% endif %}
+
+  {% endfor %}
+
+  {% if page.sidebar.nav %}
+
+  <div class="fb-like" data-href="https://www.facebook.com/earthinversionwebsite" data-width=""
+    data-layout="button_count" data-action="like" data-size="small" data-share="true" data-lazy="true"
+    style="text-align: center; display: block !important; min-height: 40px;"></div>
+
+  {% include nav_list nav=page.sidebar.nav %}
+  {% endif %}
+
+  {% endif %}
+
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+
+</div>
+{% endif %}

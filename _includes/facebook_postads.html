@@ -1,0 +1,15 @@
+{% if include.postLink %}
+{% assign post_link = include.postLink %}
+{% else %}
+{% assign post_link = "https://www.facebook.com/earthinversionwebsite/posts/107758044752463" %}
+{% endif %}
+
+<div class="centerAdMobile" width="500" style="margin-bottom: 1.5em; min-height: 380px; max-height: 480px;">
+    <div class="fb-post" data-href="{{ post_link }}" data-width="500" data-show-text="false">
+    </div>
+</div>
+
+<div class="centerAdDesktop" style="margin-bottom: 1.5em; min-height: 450px; max-height: 550px;">
+    <div class="fb-post" data-href="{{ post_link }}" data-width="500" data-show-text="false">
+    </div>
+</div>

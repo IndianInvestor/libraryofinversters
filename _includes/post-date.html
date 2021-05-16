@@ -1,0 +1,7 @@
+{% if post.date %}
+<i class="fas fa-fw fa-calendar-plus" aria-hidden="true"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{
+    post.date | date: "%B %d, %Y" }}</time>
+{% elsif page.date %}
+<i class="fas fa-fw fa-calendar-plus" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{
+    page.date | date: "%B %d, %Y" }}</time>
+{% endif %}

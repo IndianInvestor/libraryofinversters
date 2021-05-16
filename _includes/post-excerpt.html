@@ -1,0 +1,13 @@
+{% if post.excerpt %}
+<blockquote>
+    <p class="archive__item-excerpt" itemprop="description" style="color:blue; font-size:0.6em;">{{ post.excerpt |
+        markdownify |
+        strip_html }}</p>
+</blockquote>
+{% elsif page.excerpt %}
+<blockquote>
+    <p class="archive__item-excerpt" itemprop="description" style="color:blue; font-size:0.6em;">{{ page.excerpt |
+        markdownify |
+        strip_html }}</p>
+</blockquote>
+{% endif %}
