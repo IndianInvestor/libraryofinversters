@@ -16,21 +16,21 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Earth Inversion"
+title: "Library of Investors"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Earth Inversion"
+name: "Library of Investors"
 description: "All about coding, methods, algorithms, and applications in the context of Earth Sciences"
-url: https://earthinversion.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: www.libraryofinvestors.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "earthinversion/earthinversion.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: "/assets/images/earth-inversion-teaser-resize.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: "/assets/images/EarthInversionLogo.webp" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "Earth Inversion" # overrides the website title displayed in the masthead, use " " for no title
+repository: "IndianInvestor/libraryofinversters" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: "images/logo.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: "images/logo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "Investors' Library" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: "disqus" #"staticman_v2" #"disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: false #"staticman_v2" #"disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname: "earthinversion-1" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -74,7 +74,7 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 google:
-  search_engine_id: 001525475244991111628:9vnqi5wdv0k # YOUR_SEARCH_ENGINE_ID
+  search_engine_id:  # YOUR_SEARCH_ENGINE_ID
   instant_search: true # false (default), true
 # SEO Related
 google_site_verification:
@@ -84,12 +84,12 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-  username: utpalkmr
+  username: 
 facebook:
   username:
   app_id:
   publisher:
-og_image: "/assets/images/earth-inversion-teaser-resize.png" # Open Graph/Twitter default site image
+og_image: "" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -106,27 +106,27 @@ analytics:
 
 # Site Author
 author:
-  name: "Utpal Kumar"
-  avatar: "https://raw.githubusercontent.com/earthinversion/earthinversion-images/main/images/utpalphoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Data Science, Computational Geophysics, Web Computing"
+  name: "S.B. Kumar"
+  avatar: "" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: ""
   location: "Taipei, Taiwan"
   email:
   links:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: mailto:utpalkumar50@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://iescoders.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Utpal_Kmr"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://iescoders.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/Utpal_Kmr"
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/earthinversion"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/earthinversion"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://www.instagram.com/utpalkrai/?hl=en"
@@ -134,15 +134,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Utpal_Kmr"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/earthinversion"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/Utpal_Kmr"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url:
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/earthinversion"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -272,19 +272,6 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  obspycollection:
-    output: true
-    permalink: /:collection/:path/
-  methods-algorithms:
-    output: true
-    permalink: /:collection/:path/
-  plotting-tutorial:
-    output: true
-    permalink: /:collection/:path/
-  downloads:
-    output: true
-    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -310,40 +297,5 @@ defaults:
       layout: single
       author_profile: true
       related: true
-  # _obspycollection
-  - scope:
-      path: ""
-      type: obspycollection
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      comments: true
-  # _methods-algorithms
-  - scope:
-      path: ""
-      type: methods-algorithms
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: true
-  # _plotting-tutorial
-  - scope:
-      path: ""
-      type: plotting-tutorial
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      comments: true
-  # _downloads
-  - scope:
-      path: ""
-      type: downloads
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      comments: true
+ 
+
