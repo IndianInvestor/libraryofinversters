@@ -22,4 +22,4 @@ The different stages of a company, i.e., initial establishment, enrollment in th
 
 __The fourth chapter__ provides the information about the importance of companies and their pioneers who played a major role in the economy of a country. An average reader may __require 1 hour 30 minute of reading time__ for this chapter.
 
-![books](images/atlas-kadrow-MdeHq5ZD_Xw-unsplash.jpg)
+![books](/images/atlas-kadrow-MdeHq5ZD_Xw-unsplash.jpg)
