@@ -12,6 +12,8 @@ sidebar:
 category: bookreview
 ---
 
+<img src="/images/atlas-kadrow-MdeHq5ZD_Xw-unsplash.jpg" alt="books">
+
 From __the introduction chapter__ you will learn about the private and public companies and their differences. Also, you will be amazed by the way the authors explained about how our day to day life is linked with the companies that are listed in the stock market. An average reader may __require 15 minutes of reading time__ for this chapter.
 
 __The first chapter__ summarizes the brief history of capitalism that includes, how the stock market started for the first time in the history by European countries, and then in America. It provides more details about how American economy evolved at different stages, the important role of pioneer investors, and the young entrepreneurs of America. An average reader may __require 3 hours of reading time__ for this chapter.
@@ -22,4 +24,3 @@ The different stages of a company, i.e., initial establishment, enrollment in th
 
 __The fourth chapter__ provides the information about the importance of companies and their pioneers who played a major role in the economy of a country. An average reader may __require 1 hour 30 minute of reading time__ for this chapter.
 
-![books](/images/atlas-kadrow-MdeHq5ZD_Xw-unsplash.jpg)
