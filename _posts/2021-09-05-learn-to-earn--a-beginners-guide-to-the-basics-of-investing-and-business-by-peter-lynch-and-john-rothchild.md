@@ -21,3 +21,5 @@ __The second chapter__ provides the information regarding different types of too
 The different stages of a company, i.e., initial establishment, enrollment in the stock exchange, its periods (young, middle age, and old) are detailed in __the third chapter__. This chapter also includes three major time periods of a company (young, middle, and old age), its extinction, and about bull and bear markets. An average reader may __require 1 hour 30 minute of reading time__ for this chapter.
 
 __The fourth chapter__ provides the information about the importance of companies and their pioneers who played a major role in the economy of a country. An average reader may __require 1 hour 30 minute of reading time__ for this chapter.
+
+![books](images/atlas-kadrow-MdeHq5ZD_Xw-unsplash.jpg)
