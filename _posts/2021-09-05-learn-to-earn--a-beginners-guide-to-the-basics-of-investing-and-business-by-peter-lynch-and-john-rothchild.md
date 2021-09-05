@@ -12,7 +12,7 @@ sidebar:
 category: bookreview
 ---
 
-<img src="/images/atlas-kadrow-MdeHq5ZD_Xw-unsplash.jpg" alt="books">
+<img src="/images/P2021_09_05_Learn_to_Earn_PeterLynch.jpg" alt="books" width="50%">
 
 From __the introduction chapter__ you will learn about the private and public companies and their differences. Also, you will be amazed by the way the authors explained about how our day to day life is linked with the companies that are listed in the stock market. An average reader may __require 15 minutes of reading time__ for this chapter.
 
