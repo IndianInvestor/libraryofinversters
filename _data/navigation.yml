@@ -21,11 +21,8 @@ docs:
       - title: "Go to iescoders.com"
         url: https://iescoders.com
 
-
 all_posts_list:
-  - title: Geophysics
+  - title: Bookreview
     children:
-      - title: "Signal denoising using Fourier Analysis in Python"
-        url: /techniques/signal-denoising-using-fast-fourier-transform/
-
-      
+      - title: "A beginner’s guide to the basics of investing and business: by Peter Lynch and John Rothchild"
+        url: /bookreview/learn-to-earn-a-beginners-guide-to-the-basics-of-investing-and-business-by-peter-lynch-and-john-rothchild/

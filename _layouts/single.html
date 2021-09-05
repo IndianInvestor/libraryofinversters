@@ -36,32 +36,13 @@ layout: default
           page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
         {% if page.read_time %}
         <!-- if the author is balaji -->
-        {% if page.authors=="balajiseela" %}
-        <p class="page__meta">
-          {% if page.live %} <span class="dot"
-            style="height: 0.8em; width: 0.8em; background-color: red; border-radius: 50%; display: inline-block;"></span>
-          {% endif %}
-          <i class="fa fa-users" aria-hidden="true"></i> <a href="https://twitter.com/utpalkmr">Utpal Kumar</a>, <a
-            href="https://scholar.google.com/citations?user=9mN0cjcAAAAJ&hl=en">Balaji Kumar Seela</a>&nbsp;&nbsp;
-          <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %} &nbsp;&nbsp;
-          {% if site.category_archive.type and page.categories[0] %}
-          <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {% include category-top.html %} <br>
-          {% endif %}
-          {% if page.read_time %}
-          {% include post-date.html %} &nbsp;&nbsp;
-          {% endif %}
-          <img
-            src="https://visitor-badge.glitch.me/badge?page_id=earthinversion.earthinversion.github.io._posts.{{ page.id | split: '/' | last }}"
-            alt="visitor badge" />
-        </p>
-        {% else %}
+
         <!-- if the author is utpal -->
         <p class="page__meta">
           {% if page.live %} <span class="dot"
             style="height: 0.8em; width: 0.8em; background-color: red; border-radius: 50%; display: inline-block;"></span>
           {% endif %}
-          <i class="far fa-user" aria-hidden="true"></i> <a href="https://twitter.com/utpalkmr">Utpal
-            Kumar</a>&nbsp;&nbsp;
+          <i class="far fa-user" aria-hidden="true"></i> <a href="">Balaji Seela</a>&nbsp;&nbsp;
           <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %} &nbsp;&nbsp;
           {% if site.category_archive.type and page.categories[0] %}
           <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {% include category-top.html %} <br>
@@ -73,7 +54,6 @@ layout: default
             src="https://visitor-badge.glitch.me/badge?page_id=earthinversion.earthinversion.github.io._posts.{{ page.id | split: '/' | last }}"
             alt="visitor badge" />&nbsp;&nbsp;
         </p>
-        {% endif %}
         {% endif %}
 
         {% if page.share %}

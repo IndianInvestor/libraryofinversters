@@ -20,7 +20,7 @@ title: "Library of Investors"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Library of Investors"
-description: "All about coding, methods, algorithms, and applications in the context of Earth Sciences"
+description: ""
 url: www.libraryofinvestors.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "IndianInvestor/libraryofinversters" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -59,7 +59,7 @@ staticman:
       type: "date" # "date"
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint: "https://api.staticman.net/v2/entry/earthinversion/earthinversion.github.io/" #https://api.staticman.net/v3/entry/github/earthinversion/earthinversion.github.io # URL of your own deployment with trailing slash, will fallback to the public instance
+  endpoint: #https://api.staticman.net/v3/entry/github/earthinversion/earthinversion.github.io # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey:
   secret:
@@ -74,7 +74,7 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 google:
-  search_engine_id:  # YOUR_SEARCH_ENGINE_ID
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: true # false (default), true
 # SEO Related
 google_site_verification:
@@ -84,7 +84,7 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-  username: 
+  username:
 facebook:
   username:
   app_id:
@@ -99,9 +99,9 @@ social:
 
 # Analytics
 analytics:
-  provider: "google" # false (default), "google", "google-universal", "custom"
+  provider: false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: "UA-129347198-2"
+    tracking_id: ""
     anonymize_ip: true #false (default)
 
 # Site Author
@@ -272,7 +272,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -297,5 +296,3 @@ defaults:
       layout: single
       author_profile: true
       related: true
- 
-

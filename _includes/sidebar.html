@@ -17,25 +17,7 @@
   {% if s.title %}
   <h2 align="center">{{ s.title }}</h2>
   {% endif %}
-  {% if s.showBtn %}
-  <p align="center" style="margin-bottom:0;">
-    <a href="/research/" class="btn btn--success btn--small" style="font-size:0.6em;"><i class="fa fa-globe"
-        aria-hidden="true"></i> Research</a>
-    <a href="/data-analysis/" class="btn btn--success btn--small" style="font-size:0.6em;"><i class="fa fa-chart-line"
-        aria-hidden="true"></i> Data Analysis</a>
-  </p>
-  <p align="center" style="margin-top:0;">
-    <a href="/web-computing/" class="btn btn--success btn--small" style="font-size:0.6em;"><i class="fa fa-cloud"
-        aria-hidden="true"></i> Web Computing</a>
-    <a href="https://github.com/earthinversion/" class="btn btn--success btn--small" style="font-size:0.6em;"><i
-        class="fab fa-github" aria-hidden="true"></i> Github Page</a>
-  </p>
 
-  <div class="fb-like" data-href="https://www.facebook.com/earthinversionwebsite" data-width=""
-    data-layout="button_count" data-action="like" data-size="small" data-share="true" data-lazy="true"
-    style="text-align: center; display: block !important; min-height: 30px;"></div>
-
-  {% endif %}
 
   {% if s.text %}
   <blockquote style="font-size: small;">
@@ -45,19 +27,10 @@
   {% endif %}
 
   {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
-  {% if s.reader_count %}
-  <p class="page_readers"><a href="http://feeds.feedburner.com/EarthInversion"><img
-        src="http://feeds.feedburner.com/~fc/EarthInversion?bg=FFCC33&amp;fg=444444&amp;anim=0" height="26" width="88"
-        style="border:0" alt="" /></a></p>
-  {% endif %}
 
   {% endfor %}
 
   {% if page.sidebar.nav %}
-
-  <div class="fb-like" data-href="https://www.facebook.com/earthinversionwebsite" data-width=""
-    data-layout="button_count" data-action="like" data-size="small" data-share="true" data-lazy="true"
-    style="text-align: center; display: block !important; min-height: 40px;"></div>
 
   {% include nav_list nav=page.sidebar.nav %}
   {% endif %}

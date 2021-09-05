@@ -8,7 +8,7 @@ layout: archive
 
 <div class="paginator-desktop">
   <div class="entries-{{ page.entries_layout | default: 'grid' }}">
-    {% for post in paginator.posts offset:2 %}
+    {% for post in paginator.posts %}
     {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
@@ -18,9 +18,7 @@ layout: archive
     {% for post in paginator.posts %}
     {% include archive-single.html type="grid" %}
     {% endfor %}
-    <div style="margin-top: 5%; margin-bottom: 5%;">
-      {% include google-adsense-display-ad-horizontal.html %}
-    </div>
+
   </div>
 </div>
 
