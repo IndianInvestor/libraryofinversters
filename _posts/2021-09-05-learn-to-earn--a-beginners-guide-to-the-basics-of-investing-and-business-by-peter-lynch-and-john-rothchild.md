@@ -12,8 +12,6 @@ sidebar:
 category: bookreview
 ---
 
-{% include toc %}
-
 From the introduction chapter you will learn about the private and public companies and their differences. Also, you will be amazed by the way the authors explained about how our day to day life is linked with the companies that are listed in the stock market. An average reader may require 15 minutes of reading time for this chapter.
 
 The first chapter summarizes the brief history of capitalism that includes, how the stock market started for the first time in the history by European countries, and then in America. It provides more details about how American economy evolved at different stages, the important role of pioneer investors, and the young entrepreneurs of America. An average reader may require 3 hours of reading time for this chapter.

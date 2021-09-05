@@ -2,24 +2,6 @@
 main:
   - title: "Posts"
     url: /recent-posts/
-  - title: "Collections"
-    url: /ei-collections/
-  - title: "Downloads"
-    url: /downloads/
-  - title: "About me"
-    url: /about-me/
-
-docs:
-  - title: Also visit
-    children:
-      - title: "Posts Gallery"
-        url: /gallery/
-      - title: "Web Apps"
-        url: /web-computing/
-      - title: "Contact Me"
-        url: /contact-form/
-      - title: "Go to iescoders.com"
-        url: https://iescoders.com
 
 all_posts_list:
   - title: Bookreview
